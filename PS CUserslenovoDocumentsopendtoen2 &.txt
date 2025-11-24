@@ -1,0 +1,548 @@
+PS C:\Users\lenovo\Documents\opendtoen> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Do
+PS C:\Users\lenovo\Documents\opendtoend> 
+& C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_m
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mi
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mix        
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixe       
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed      
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.     
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.p    
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenoPythoPython/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+Traceback (most recent call last):
+  File "c:\Users\lenovo\Documents\opendtoend\part1_mixed.py", line 327, in <module>
+    run_experiment()
+  File "c:\Users\lenovo\Documents\opendtoend\part1_mixed.py", line 264, in run_experiment
+    params = load_grid_data('network_topology.mat', 'generator_parameters.mat')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\lenovo\Documents\opendtoend\part1_mixed.py", line 45, in load_grid_data
+    limits_mw_opt = raw_limits * CONFIG['OPT_SCALE_FACTOR']  
+                                 ~~~~~~^^^^^^^^^^^^^^^^^^^^  
+KeyError: 'OPT_SCALE_FACTOR'
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+Gaussian           | Determ          | 19.00        | 1.0          | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 17.20        | 0.0          | 9.40
+Student-T          | Param           | 17.05        Gaussian           | Determ          | 19.00        | 1.0          | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 17.20        | 0.0          | 9.40
+Student-T          | Param           | 17.05        | 0.0          | 7.39
+Student-T          | Determ          | 17.43        | 0.0          | 0.00
+------------------------------------------------------------------------------------PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py       
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value      
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py       
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value      
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value      
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value      
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value      
+===============================================================================================
+Student-T          | Ours            | 16.47        | 0.0          | 8.82
+===========
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value      
+===============================================================================================
+Student-T          | Ours            | 16.47        | 0.0          | 8.82
+===============================================================================================
+Student-T          | Ours            | 16.47        | 0.0          | 8.82
+Student-T          | Param           | 16.80        | 0.0          | 7.39
+Student-T          | Determ          | 16.84        | 0.0          | 0.00
+Student-T          | Ours            | 16.47        | 0.0          | 8.82
+Student-T          | Param           | 16.80        | 0.0          | 7.39
+Student-T          | Determ          | 16.84        | 0.0          | 0.00
+------------------------------------------------------------------------------------Student-T          | Param           | 16.80        | 0.0          | 7.39
+Student-T          | Determ          | 16.84        | 0.0          | 0.00
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 18.97        | 63.0         | 6.92
+-----------
+Mixed (Spikes)     | Ours            | 18.97        | 63.0         | 6.92
+Mixed (Spikes)     | Ours            | 18.97        | 63.0         | 6.92
+Mixed (Spikes)     | Param           | 19.15        | 64.6         | 7.39
+Mixed (Spikes)     | Determ          | 18.03        | 33.3         | 0.00
+Mixed (Spikes)     | Determ          | 18.03        | 33.3         | 0.00
+-------------------                    -------------------                    -------------------        -------------------                    > & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+c:\Users\lenovo\Documents\opendtoend\part1_mixed.py:192: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+  ('data_mixed_case39.mat', 'Mixed (Spikes)')
+
+
+
+===============================================================================================
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+===============================================================================================
+Gaussian           | Ours            | 18.31        | 91.5         | 6.95
+Gaussian           | Ours            | 18.31        | 91.5         | 6.95
+Gaussian           | Param           | 18.20        | 89.1         | 7.39
+Gaussian           | Determ          | 18.37        | 82.0         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 18.86        | 98.0         | 6.89
+Mixed (Spikes)     | Param           | 18.71        | 100.0        | 7.39
+Mixed (Spikes)     | Ours            | 18.86        | 98.0         | 6.89
+Mixed (Spikes)     | Param           | 18.71        | 100.0        | 7.39
+Mixed (Spikes)     | Determ          | 17.53        | 78.3         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 16.88        | 72.3         | 8.70
+Student-T          | Param           | 16.78        | 71.6         | 7.39
+Student-T          | Determ          | 16.50        | 62.7         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       > & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 16.96        | 43.9         | 6.96
+Gaussian           | Param           | 17.09        | 50.0         | 7.39
+Gaussian           | Determ          | 17.83        | 62.7         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 19.24        | 90.0         | 6.92
+Mixed (Spikes)     | Param           | 18.81        | 85.7         | 7.39
+Mixed (Spikes)     | Determ          | 18.05        | 68.8         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 13.78        | 0.0          | 8.82
+Student-T          | Param           | 14.56        | 6.1          | 7.39
+Student-T          | Determ          | 16.68        | 48.7         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 17.87        | 81.1         | 6.96        
+Gaussian           | Param           | 18.14        | 82.4         | 7.39        
+Gaussian           | Determ          | 17.79        | 74.5         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 17.62        | 89.1         | 6.92        
+Mixed (Spikes)     | Param           | 17.65        | 91.1         | 7.39        
+Mixed (Spikes)     | Determ          | 18.10        | 76.8         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 16.18        | 55.9         | 8.82        
+Student-T          | Param           | 15.14        | 39.5         | 7.39        
+Student-T          | Determ          | 15.85        | 45.5         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 17.48        | 63.0         | 6.96        
+Gaussian           | Param           | 16.73        | 54.5         | 7.39        
+Gaussian           | Determ          | 16.70        | 59.0         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 17.03        | 85.7         | 6.92        
+Mixed (Spikes)     | Param           | 17.94        | 92.3         | 7.39        
+Mixed (Spikes)     | Determ          | 15.49        | 52.4         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 15.31        | 31.5         | 8.82        
+Student-T          | Param           | 15.39        | 27.6         | 7.39        
+Student-T          | Determ          | 15.27        | 26.9         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 16.96        | 43.9         | 6.96        
+Gaussian           | Param           | 17.09        | 50.0         | 7.39        
+Gaussian           | Determ          | 17.83        | 62.7         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 19.24        | 90.0         | 6.92        
+Mixed (Spikes)     | Param           | 18.81        | 85.7         | 7.39
+Mixed (Spikes)     | Determ          | 18.05        | 68.8         | 0.00        
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 13.78        | 0.0          | 8.82        
+Student-T          | Param           | 14.56        | 6.1          | 7.39        
+Student-T          | Determ          | 16.68        | 48.7         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 17.00        | 42.1         | 7.45        
+Gaussian           | Param           | 16.83        | 41.7         | 7.56        
+Gaussian           | Determ          | 17.83        | 62.7         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 18.50        | 83.8         | 7.23        
+Mixed (Spikes)     | Param           | 18.87        | 81.9         | 7.56        
+Mixed (Spikes)     | Determ          | 18.05        | 68.8         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 16.55        | 40.8         | 10.12       
+Student-T          | Param           | 14.35        | 0.0          | 7.56        
+Student-T          | Determ          | 16.68        | 48.7         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 16.09        | 22.6         | 6.71        
+Gaussian           | Param           | 16.59        | 36.4         | 7.12        
+Gaussian           | Determ          | 17.83        | 62.7         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 18.72        | 84.7         | 6.45        
+Mixed (Spikes)     | Param           | 18.99        | 85.5         | 7.12        
+Mixed (Spikes)     | Determ          | 18.05        | 68.8         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 14.65        | 7.8          | 7.06        
+Student-T          | Param           | 14.22        | 0.0          | 7.12        
+Student-T          | Determ          | 16.68        | 48.7         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 16.96        | 43.9         | 6.96        
+Gaussian           | Param           | 17.09        | 50.0         | 7.39        
+Gaussian           | Determ          | 17.83        | 62.7         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 19.24        | 90.0         | 6.92        
+Mixed (Spikes)     | Param           | 18.81        | 85.7         | 7.39        
+Mixed (Spikes)     | Determ          | 18.05        | 68.8         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 13.78        | 0.0          | 8.82        
+Student-T          | Param           | 14.56        | 6.1          | 7.39        
+Student-T          | Determ          | 16.68        | 48.7         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 16.93        | 34.1         | 6.96        
+Gaussian           | Param           | 17.95        | 59.7         | 7.39        
+Gaussian           | Determ          | 18.23        | 60.6         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 18.36        | 81.6         | 6.92        
+Mixed (Spikes)     | Param           | 17.96        | 77.5         | 7.39        
+Mixed (Spikes)     | Determ          | 18.25        | 69.8         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 16.68        | 44.6         | 8.82        
+Student-T          | Param           | 15.07        | 10.9         | 7.39        
+Student-T          | Determ          | 16.66        | 40.3         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 16.82        | 47.5         | 6.96        
+Gaussian           | Param           | 17.14        | 53.3         | 7.39        
+Gaussian           | Determ          | 17.83        | 62.7         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 19.24        | 90.0         | 6.92        
+Mixed (Spikes)     | Param           | 18.81        | 85.7         | 7.39        
+Mixed (Spikes)     | Determ          | 18.05        | 68.8         | 0.00
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 15.30        | 31.6         | 8.82        
+Student-T          | Param           | 14.48        | 9.6          | 7.39        
+Student-T          | Determ          | 16.68        | 48.7         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Gaussian           | Ours            | 16.96        | 43.9         | 6.96        
+Gaussian           | Param           | 17.09        | 50.0         | 7.39        
+Gaussian           | Determ          | 17.83        | 62.7         | 0.00
+-----------------------------------------------------------------------------------------------
+Mixed (Spikes)     | Ours            | 19.24        | 90.0         | 6.92        
+Mixed (Spikes)     | Param           | 18.81        | 85.7         | 7.39        
+Mixed (Spikes)     | Determ          | 18.05        | 68.8         | 0.00
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 13.78        | 0.0          | 8.82
+-----------------------------------------------------------------------------------------------
+Student-T          | Ours            | 13.78        | 0.0          | 8.82
+Student-T          | Param           | 14.56        | 6.1          | 7.39
+Student-T          | Determ          | 16.68        | 48.7         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 13.68        | 28.7         | 8.12
+Student-T          | Param           | 13.04        | 24.0         | 7.39
+Student-T          | Determ          | 13.70        | 24.1         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 12.81        | 4.1          | 8.12        
+Student-T          | Param           | 12.74        | 2.7          | 7.39        
+Student-T          | Determ          | 13.83        | 14.5         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 14.33        | 37.5         | 9.05        
+Student-T          | Param           | 13.92        | 30.9         | 7.39        
+Student-T          | Determ          | 13.86        | 18.1         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 13.01        | 9.6          | 8.12        
+Student-T          | Param           | 12.89        | 5.4          | 7.39        
+Student-T          | Determ          | 13.92        | 17.9         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 13.02        | 8.0          | 8.12        
+Student-T          | Param           | 12.68        | 1.4          | 7.39        
+Student-T          | Determ          | 13.76        | 14.6         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 13.67        | 31.6         | 8.12        
+Student-T          | Param           | 13.17        | 24.0         | 7.39        
+Student-T          | Determ          | 13.47        | 22.4         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 12.81        | 4.0          | 7.18        
+Student-T          | Param           | 12.59        | 1.4          | 7.21        
+Student-T          | Determ          | 13.76        | 14.6         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 12.70        | 2.7          | 6.97        
+Student-T          | Param           | 12.57        | 0.0          | 7.16        
+Student-T          | Determ          | 13.76        | 14.6         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 12.75        | 1.4          | 7.31        
+Student-T          | Param           | 12.66        | 1.4          | 7.26        
+Student-T          | Determ          | 13.76        | 14.6         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 12.75        | 2.7          | 7.31        
+Student-T          | Param           | 12.66        | 1.4          | 7.26        
+Student-T          | Determ          | 13.76        | 14.6         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 12.77        | 2.7          | 7.41        
+Student-T          | Param           | 12.66        | 1.4          | 7.26        
+Student-T          | Determ          | 13.76        | 14.6         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 14.22        | 0.0          | 7.41        
+Student-T          | Param           | 14.31        | 0.0          | 7.26        
+Student-T          | Determ          | 14.54        | 4.2          | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 14.28        | 2.1          | 7.41        
+Student-T          | Param           | 14.21        | 2.1          | 7.26        
+Student-T          | Determ          | 14.53        | 8.4          | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+Student-T          | Determ          | 14.53        | 8.4          | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 14.24        | 7.3          | 7.41
+Student-T          | Param           | 14.00        | 3.3          | 7.26
+Student-T          | Determ          | 14.04        | 3.4          | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend>
+
+
+
+
+
+
+
+
+
+
+                                       > & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 14.24        | 7.3          | 7.41        
+Student-T          | Param           | 14.00        | 3.3          | 7.26        
+Student-T          | Determ          | 14.04        | 3.4          | 0.00
+-----------------------------------------------------------------------------------------------
+Skewed (Asym)      | Ours            | 14.81        | 18.4         | 7.09        
+Skewed (Asym)      | Param           | 14.79        | 18.6         | 7.26        
+Skewed (Asym)      | Determ          | 14.85        | 14.1         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 16.78        | 100.0        | 7.41        
+Student-T          | Param           | 16.82        | 100.0        | 7.26        
+Student-T          | Determ          | 16.97        | 100.0        | 0.00
+-----------------------------------------------------------------------------------------------
+Skewed (Asym)      | Ours            | 17.77        | 100.0        | 7.09        
+Skewed (Asym)      | Param           | 17.69        | 100.0        | 7.26        
+Skewed (Asym)      | Determ          | 17.81        | 100.0        | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 12.70        | 3.9          | 7.41        
+Student-T          | Param           | 12.54        | 2.7          | 7.26        
+Student-T          | Determ          | 14.13        | 13.8         | 0.00
+-----------------------------------------------------------------------------------------------
+Skewed (Asym)      | Ours            | 14.02        | 16.9         | 7.09        
+Skewed (Asym)      | Param           | 14.10        | 16.5         | 7.26        
+Skewed (Asym)      | Determ          | 15.31        | 27.8         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 14.03        | 0.0          | 7.41        
+Student-T          | Param           | 14.07        | 0.0          | 7.26        
+Student-T          | Determ          | 14.53        | 8.4          | 0.00
+-----------------------------------------------------------------------------------------------
+Skewed (Asym)      | Ours            | 14.89        | 17.0         | 7.09        
+Skewed (Asym)      | Param           | 15.12        | 19.6         | 7.26        
+Skewed (Asym)      | Determ          | 14.68        | 9.6          | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/part1_mixed.py
+--- 加载电网拓扑: network_topology.mat ---
+
+===============================================================================================
+Dataset            | Model           | Avg Cost($)  | Viol Rate(%) | Rho Value
+===============================================================================================
+Student-T          | Ours            | 14.14        | 0.0          | 7.41        
+Student-T          | Param           | 14.12        | 0.0          | 7.26        
+Student-T          | Determ          | 14.71        | 4.1          | 0.00
+-----------------------------------------------------------------------------------------------
+Skewed (Asym)      | Ours            | 14.80        | 8.6          | 7.09        
+Skewed (Asym)      | Param           | 14.85        | 8.6          | 7.26        
+Skewed (Asym)      | Determ          | 15.52        | 19.8         | 0.00
+-----------------------------------------------------------------------------------------------
+PS C:\Users\lenovo\Documents\opendtoend> 
