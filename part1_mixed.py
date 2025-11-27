@@ -8,9 +8,7 @@ import os
 warnings.filterwarnings('ignore')
 
 CONFIG = {
-    # [关键参数] 物理限额缩放
-    # 0.60: 把线路容量砍到 60%。
-    # 既然我们不再特意挑选"最难样本"，而是按顺序测最后 100 个，
+    # 线路容量砍到 60%。
     # 我们需要把电网弄得拥挤一点，确保 Deterministic 必定会违约。
     'GLOBAL_LIMIT_SCALE': 0.90, 
     
@@ -22,9 +20,7 @@ CONFIG = {
     'CONFIDENCE_LEVEL': 0.95 # 95% 置信度
 }
 
-# =========================================================================
-#  1. 数据加载
-# =========================================================================
+
 def load_grid_data(topo_path, gen_path):
     print(f"--- 加载电网拓扑: {topo_path} ---")
     baseMVA = 100.0
@@ -42,7 +38,7 @@ def load_grid_data(topo_path, gen_path):
         if 'mpc' in f and 'baseMVA' in f['mpc']:
             baseMVA = np.array(f['mpc']['baseMVA']).item()
 
-        # 统一缩放：让所有模型都在 60% 容量的电网里跑
+        # 统一缩放：让所有模型都在 60% 容量的电网里跑？？？是否能保留手段
         limits_mw_real = raw_limits * CONFIG['GLOBAL_LIMIT_SCALE']
         limits_mw_opt = limits_mw_real 
     
@@ -75,9 +71,9 @@ def load_scenario_data(mat_path, num_buses):
             d_real = d_real.T
     return d_fcst, d_real
 
-# =========================================================================
-#  2. 校准逻辑 (Ours vs Gaussian)
-# =========================================================================
+
+
+
 def calibrate_data_driven(errors, target_epsilon, confidence_level):
     n_samples = len(errors)
     # 2780 个样本：对半分，1390 定形状，1390 定大小
