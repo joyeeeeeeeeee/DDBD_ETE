@@ -1,0 +1,663 @@
+Method             | Viol Rate (%)   | Infeasible | Avg Cost ($)
+--------------------------------------------------------------------
+Deterministic      | 100.00          | 0          | 187832.36
+Gaussian CCP       | 93.83           | 0          | 212302.34
+Ours (CP-DDRO)     | 93.83           | 0          | 209638.50
+Traditional RO     | 93.83           | 0          | 203659.36
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Traditional RO vs Gaussian vs DDRO ===
+正在计算真实的物理拓扑 (PTDF)...
+
+正在计算各方法的安全裕度 (Margin)...
+  > Gaussian CCP Margin: 797.37 MW (受底噪影响，偏小)
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 44.46
+  > [结论] 数据分布比正态分布更集中（薄尾）。       
+  > Ours (DDRO) Margin : 719.73 MW (受尖峰影响，适中)
+  > Traditional RO Margin: 564.61 MW (由最坏点决定，最大)
+
+Method             | Viol Rate (%)   | Infeasible | Avg Cost ($)
+--------------------------------------------------------------------
+Deterministic      | 100.00          | 0          | 161319.57
+Gaussian CCP       | 91.82           | 0          | 180235.22
+Ours (CP-DDRO)     | 91.82           | 0          | 178383.30
+Traditional RO     | 91.98           | 0          | 174458.43
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Traditional RO vs Gaussian vs DDRO ===
+正在计算真实的物理拓扑 (PTDF)...
+
+正在计算各方法的安全裕度 (Margin)...
+  > Gaussian CCP Margin: 797.37 MW (受底噪影响，偏小)
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 44.46
+  > [结论] 数据分布比正态分布更集中（薄尾）。       
+  > Ours (DDRO) Margin : 719.73 MW (受尖峰影响，适中)
+  > Traditional RO Margin: 564.61 MW (由最坏点决定，最大)
+
+Method             | Viol Rate (%)   | Infeasible | Avg Cost ($)
+--------------------------------------------------------------------
+Deterministic      | 100.00          | 0          | 161319.57      
+Gaussian CCP       | 91.82           | 0          | 180235.22      
+Ours (CP-DDRO)     | 91.82           | 0          | 178383.30      
+Traditional RO     | 91.98           | 0          | 174458.43      
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Traditional RO vs Gaussian vs DDRO ===
+已对 2160 个样本进行随机洗牌，消除时序偏差。
+正在计算真实的物理拓扑 (PTDF)...
+
+正在计算各方法的安全裕度 (Margin)...
+  > Gaussian CCP Margin: 786.29 MW (受底噪影响，偏小)
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 44.06
+  > [结论] 数据分布比正态分布更集中（薄尾）。       
+  > Ours (DDRO) Margin : 706.51 MW (受尖峰影响，适中  > 数据驱动 DDRO 半径 (Quantile): 44.06
+  > [结论] 数据分布比正态分布更集中（薄尾）。       
+  > Ours (DDRO) Margin : 706.51 MW (受尖峰影响，适中  > [结论] 数据分布比正态分布更集中（薄尾）。       
+  > Ours (DDRO) Margin : 706.51 MW (受尖峰影响，适中  > Ours (DDRO) Margin : 706.51 MW (受尖峰影响，适中)
+  > Traditional RO Margin: 610.87 MW (由最坏点决定，最大)
+  > Traditional RO Margin: 610.87 MW (由最坏点决定，最大)
+
+Method             | Viol Rate (%)   | Infeasible | 
+
+Method             | Viol Rate (%)   | Infeasible | Method             | Viol Rate (%)   | Infeasible | Avg Cost ($)
+Avg Cost ($)
+------------------------------------------------------------------------------------------------------------------------
+----------------
+Deterministic      | 100.00          | 0          | 161567.11
+Deterministic      | 100.00          | 0          | 161567.11
+161567.11
+Gaussian CCP       | 93.98           | 0          | Gaussian CCP       | 93.98           | 0          | 180253.33
+Ours (CP-DDRO)     | 93.98           | 0          | 178347.49
+Ours (CP-DDRO)     | 93.98           | 0          | 178347.49
+178347.49
+Traditional RO     | 94.14           | 0          | Traditional RO     | 94.14           | 0          | 175748.60
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Docum
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Docume
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S    
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3   
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_  
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_D 
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DD
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDR
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.p
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+已对 2160 个样本进行随机洗牌，消除时序偏差。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 786.29 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 44.06
+  > [结论] 数据分布比正态分布更集中（薄尾）。       
+  > DDRO Margin     : 706.51 MW
+  > Trad. RO Margin : 610.87 MW
+  !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 161567     | 648    | 618   
+Gaussian CCP    | 93.98    | 0      | 180253     | 0      | 609   
+Ours (CP-DDRO)  | 93.98    | 0      | 178347     | 0      | 609   
+Traditional RO  | 94.14    | 0      | 175749     | 0      | 610   
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+已重构数据：5% 概率出现 25% 幅度的尖峰。已洗牌。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 2423.91 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 113459     | 647    | 340
+Gaussian CCP    | 3.40     | 0      | 191436     | 0      | 22
+Ours (CP-DDRO)  | 27.16    | 0      | 176634     | 0      | 176
+Traditional RO  | 41.36    | 0      | 167085     | 0      | 268
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+已重构数据：空间独立尖峰 (5%概率, 30%幅度)。已洗 牌。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 883.94 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 66.26
+  > [结论] 检测到显著的厚尾特征！DDRO 半径比 Gaussian 大，安全性更高。
+  > DDRO Margin     : 974.01 MW
+  > Trad. RO Margin : 655.23 MW
+  !!! 警告：RO 小于 Gaussian，说明训练集里没有尖 峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 114620     | 647    | 525
+Gaussian CCP    | 80.71    | 0      | 141440     | 1      | 523
+Ours (CP-DDRO)  | 80.71    | 0      | 144179     | 1      | 523
+Traditional RO  | 81.02    | 0      | 134484     | 1      | 525
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+已重构数据：空间独立尖峰 (5%概率, 30%幅度)。已洗 牌。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 883.94 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 66.26
+  > [结论] 检测到显著的厚尾特征！DDRO 半径比 Gaussian 大，安全性更高。
+  > DDRO Margin     : 974.01 MW
+  > Trad. RO Margin : 655.23 MW
+883.940538827133 655.2334420727327   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 114620     | 647    | 525
+Gaussian CCP    | 80.71    | 0      | 141440     | 1      | 523
+Ours (CP-DDRO)  | 80.71    | 0      | 144179     | 1      | 523
+Traditional RO  | 81.02    | 0      | 134484     | 1      | 525
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：全局尖峰(20%)，扩容(2.0x)，已洗牌。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 1938.17 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.22
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 1622.00 MW
+  > Trad. RO Margin : 1389.54 MW
+1938.1742244324862 1389.5377447296296   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 90769      | 485    | 340
+Gaussian CCP    | 12.19    | 0      | 161628     | 0      | 79
+Ours (CP-DDRO)  | 32.72    | 0      | 149159     | 0      | 212
+Traditional RO  | 52.47    | 0      | 140274     | 0      | 340
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：独立尖峰(40%)，去相关性，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 1144.40 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 60.15
+  > [结论] 检测到显著的厚尾特征！DDRO 半径比 Gaussian 大，安全性更高。
+  > DDRO Margin     : 1201.46 MW
+  > Trad. RO Margin : 883.73 MW
+1144.3987139923931 883.7272806641544   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 91974      | 426    | 528
+Gaussian CCP    | 44.91    | 0      | 132547     | 0      | 291
+Ours (CP-DDRO)  | 34.72    | 0      | 134857     | 0      | 225
+Traditional RO  | 81.48    | 0      | 122545     | 0      | 528
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：中等难度尖峰(12%)，扩容(1.5x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 379.35 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 59.26
+  > [结论] 数据非常接近正态分布，两种方法结果相似。
+    (如果想拉开差距，请在 utils.py 或 MATLAB 中增加生成数据的噪声厚尾程度)
+  > DDRO Margin     : 395.32 MW
+  > Trad. RO Margin : 289.77 MW
+379.34740142333715 289.7657283085958   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 114620     | 648    | 506
+。
+    (如果想拉开差距，请在 utils.py 或 MATLAB 中增加生成数据的噪声厚尾程度)
+  > DDRO Margin     : 395.32 MW
+  > Trad. RO Margin : 289.77 MW
+379.34740142333715 289.7657283085958   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 114620     | 648    | 506
+  > DDRO Margin     : 395.32 MW
+  > Trad. RO Margin : 289.77 MW
+379.34740142333715 289.7657283085958   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 114620     | 648    | 506
+ils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 114620     | 648    | 506
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 114620     | 648    | 506
+--------------------------
+Deterministic   | 100.00   | 0      | 114620     | 648    | 506
+Deterministic   | 100.00   | 0      | 114620     | 648    | 506
+| 648    | 506
+Gaussian CCP    | 77.93    | 0      | 126094     Gaussian CCP    | 77.93    | 0      | 126094     | 1      | 505
+Ours (CP-DDRO)  | 77.93    | 0      | 126580     Ours (CP-DDRO)  | 77.93    | 0      | 126580     | 1      | 505
+Traditional RO  | 78.09    | 0      | 123369     | 1      | 506
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：全局同步尖峰(8%)，扩容(1.5x)，已洗 牌。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 776.82 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.20
+  > 数据驱动 DDRO 半径 (Quantile): 38.20
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 649.97 MW
+  > Trad. RO Margin : 566.54 MW
+776.8208384570448 566.5366773630067   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 113459     | 647    | 340
+Gaussian CCP    | 52.47    | 0      | 137022     | 0      | 340
+Ours (CP-DDRO)  | 52.47    | 0      | 133164     | 0      | 340
+Traditional RO  | 52.47    | 0      | 130627     | 0      | 340
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 969.01 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.16
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 810.29 MW
+  > Trad. RO Margin : 689.92 MW
+969.0055635425231 689.921711092948   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.69    | 0      | 90769      | 481    | 340
+Gaussian CCP    | 52.01    | 0      | 124633     | 0      | 337
+Ours (CP-DDRO)  | 52.01    | 0      | 118896     | 0      | 337
+Traditional RO  | 52.47    | 0      | 114607     | 0      | 340
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 969.01 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.16
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 810.29 MW
+  > Trad. RO Margin : 689.92 MW
+969.0055635425231 689.921711092948   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.69    | 0      | 90769      | 481    | 340
+Gaussian CCP    | 52.01    | 0      | 124633     | 0      | 337
+Ours (CP-DDRO)  | 52.01    | 0      | 118896     | 0      | 337
+Traditional RO  | 52.47    | 0      | 114607     | 0      | 340
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 79518      | 307    | 340
+Gaussian CCP    | 52.47    | 0      | 97684      | 0      | 340
+Ours (CP-DDRO)  | 52.47    | 0      | 94715      | 0      | 340
+Traditional RO  | 52.47    | 0      | 92956      | 0      | 340
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 79518      | 307    | 340
+Gaussian CCP    | 52.47    | 0      | 97684      | 0      | 340
+Ours (CP-DDRO)  | 52.47    | 0      | 94715      | 0      | 340
+Traditional RO  | 52.47    | 0      | 92956      | 0      | 340
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 79518      | 307    | 340
+Gaussian CCP    | 52.47    | 0      | 97684      | 0      | 340
+Ours (CP-DDRO)  | 52.47    | 0      | 94715      | 0      | 340
+Traditional RO  | 52.47    | 0      | 92956      | 0      | 340
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 79518      | 307    | 340
+Gaussian CCP    | 52.47    | 0      | 97684      | 0      | 340
+Ours (CP-DDRO)  | 52.47    | 0      | 94715      | 0      | 340
+Traditional RO  | 52.47    | 0      | 92956      | 0      | 340
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 99.85    | 0      | 70518      | 307    | 340
+Gaussian CCP    | 35.34    | 0      | 89048      | 0      | 229
+Ours (CP-DDRO)  | 40.12    | 0      | 85910      | 0      | 260
+Traditional RO  | 43.83    | 0      | 84058      | 0      | 284
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 47.38    | 0      | 62259      | 307    | 0
+Gaussian CCP    | 0.00     | 0      | 84614      | 0      | 0
+Ours (CP-DDRO)  | 0.00     | 0      | 80960      | 0      | 0
+Traditional RO  | 0.00     | 0      | 78796      | 0      | 0
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 70.37    | 0      | 63941      | 307    | 149
+Gaussian CCP    | 9.41     | 0      | 84848      | 0      | 61
+Ours (CP-DDRO)  | 14.20    | 0      | 81365      | 0      | 92
+Traditional RO  | 14.20    | 0      | 79314      | 0      | 92
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 61.57    | 0      | 62638      | 307    | 92
+Gaussian CCP    | 0.00     | 0      | 84614      | 0      | 0
+Ours (CP-DDRO)  | 0.00     | 0      | 80960      | 0      | 0
+Traditional RO  | 0.00     | 0      | 78796      | 0      | 0
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 487.71 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.19
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 407.99 MW
+  > Trad. RO Margin : 360.79 MW
+487.71477552565045 360.78641052135106   !!! 警告 ：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 82.10    | 0      | 65879      | 307    | 225
+Gaussian CCP    | 22.84    | 0      | 86038      | 0      | 148
+Ours (CP-DDRO)  | 23.46    | 0      | 82684      | 0      | 152
+Traditional RO  | 27.01    | 0      | 80701      | 0      | 175
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version ===
+数据重构完成：底噪(0.1%)，尖峰(10%)，扩容(2.0x)。
+正在计算真实的物理拓扑 (PTDF)...
+
+[Margin Diagnostics]
+  > Gaussian Margin : 776.82 MW
+
+[Calibration] 正在执行保形预测校准 (Target Violation < 5.0%)...
+  > 自由度 (Dimension): 39
+  > 理论 Gaussian 半径 (Chi2): 54.57
+  > 数据驱动 DDRO 半径 (Quantile): 38.20
+  > [结论] 数据分布比正态分布更集中（薄尾）。    
+  > DDRO Margin     : 649.97 MW
+  > Trad. RO Margin : 566.54 MW
+776.8208384570448 566.5366773630067   !!! 警告：RO 小于 Gaussian，说明训练集里没有尖峰！请检查 utils.py 数据生成逻辑。
+
+Method          | Viol%    | Infeas | Cost($)    | GenVio | LineVio
+---------------------------------------------------------------------------
+Deterministic   | 70.83    | 0      | 63941      | 307    | 152
+Gaussian CCP    | 0.00     | 0      | 97865      | 0      | 0
+Ours (CP-DDRO)  | 6.79     | 0      | 92059      | 0      | 44
+Traditional RO  | 9.26     | 0      | 88328      | 0      | 60
+PS C:\Users\lenovo\Documents\opendtoend> 
+
+
+
+=== 开始第三章实验：Deep Diagnostics Version (System Shock) ===
+数据重构完成：系统性同向尖峰(20-30%)，强相关性，容量紧凑(1.05x)。
+
+[Calibration] Target Violation < 5.0%
+  > Theoretical Gaussian Rho : 54.57
+  > Data-Driven DDRO Rho     : 232.97
+
+[Margins Comparison - Total Power Imbalance]
+  Gaussian Margin : 2759.66 MW (Too small for shocks)
+  DDRO Margin     : 5701.95 MW (Captures tail)
+  RO Margin       : 1826.19 MW (Empirical max)
+  >>> 成功：DDRO 显著大于 Gaussian，预期 Gaussian 将会违约。
+
+Method          | Viol%    | Infeas | Cost     | LineVio
+------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 156387   | 263   
+Gaussian CCP    | 0.00     | 0      | 235914   | 0     
+Ours (CP-DDRO)  | 100.00   | 648    | 0        | 0     
+Traditional RO  | 0.00     | 0      | 208740   | 0     
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/utils.py
+PS C:\Users\lenovo\Documents\opendtoend> & C:/Users/lenovo/AppData/Local/Programs/Python/Python312/python.exe
+ c:/Users/lenovo/Documents/opendtoend/exp_S3_DDRO.py
+=== 开始第三章实验：Deep Diagnostics Version (System Shock) ===
+数据重构完成：底噪(0.2%)，稀疏毁灭冲击(2%, 40%)，容量(1.35x)。
+
+[Calibration] Target Violation < 5.0%
+  > Theoretical Gaussian Rho : 54.57
+  > Data-Driven DDRO Rho     : 35.56
+
+[Margins Comparison - Total Power Imbalance]
+  Gaussian Margin : 2313.80 MW (Too small for shocks)
+  DDRO Margin     : 1867.69 MW (Captures tail)
+  RO Margin       : 2748.48 MW (Empirical max)
+
+Method          | Viol%    | Infeas | Cost     | LineVio
+------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 144189   | 354   
+Gaussian CCP    | 1.70     | 0      | 213610   | 9     
+Ours (CP-DDRO)  | 2.31     | 0      | 199810   | 11    
+Traditional RO  | 0.15     | 0      | 227204   | 0  
+
+=== 开始第三章实验：Deep Diagnostics Version (System Shock) ===
+数据重构完成：底噪(0.2%)，稀疏毁灭冲击(1%, 35%)，容量(1.35x)。
+
+[Calibration] Target Violation < 5.0%
+  > Theoretical Gaussian Rho : 54.57
+  > Data-Driven DDRO Rho     : 35.16
+
+[Margins Comparison - Total Power Imbalance]
+  Gaussian Margin : 1576.38 MW (Too small for shocks)
+  DDRO Margin     : 1265.31 MW (Captures tail)
+  RO Margin       : 2720.03 MW (Empirical max)
+
+Method          | Viol%    | Infeas | Cost     | LineVio
+------------------------------------------------------------
+Deterministic   | 100.00   | 0      | 144103   | 464   
+Gaussian CCP    | 0.93     | 0      | 190839   | 4     
+Ours (CP-DDRO)  | 0.93     | 0      | 181527   | 4     
+Traditional RO  | 0.31     | 0      | 226247   | 1 
